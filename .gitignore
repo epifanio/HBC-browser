@@ -76,3 +76,4 @@ kml/*.kml
 kml/*.png
 kml/*.kmz
 vrt/*.vrt
+venv/
