@@ -1,0 +1,18 @@
+# libxcb1-dev libxkbcommon-x11-0 libxcb-xinerama0 
+certifi==2021.5.30
+lxml==4.6.3
+numpy==1.21.2
+pandas==1.3.3
+pyproj==3.2.1
+PyQt5==5.15.4
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.0
+PyQtWebEngine==5.15.4
+PyQtWebEngine-Qt5==5.15.2
+python-dateutil==2.8.2
+pytz==2021.3
+PyYAML==5.4.1
+QDarkStyle==3.0.2
+QtPy==1.11.2
+simplekml==1.3.6
+six==1.16.0

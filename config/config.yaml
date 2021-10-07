@@ -1,0 +1,17 @@
+settings:
+    filemanager: nautilus
+    broadcast:
+        ip: localhost
+        port: 8000
+    hbcbrowser:
+        imagepath: /media/epinux/05893ae2-6f9e-4271-80c1-cd22310974ee/HBC/Images_2015/imgs_jpg
+        imagemetadata: /media/epinux/05893ae2-6f9e-4271-80c1-cd22310974ee/HBC/projectdata.ft
+    export:
+        kmldir: /home/epinux/Desktop/QT_APP/imagebrowser_01/HBC-browser/export/kml
+        vrtdir: /home/epinux/Desktop/QT_APP/imagebrowser_01/HBC-browser/export/vrt
+    mapviewer:
+        basemap: foo
+    processing:
+        grass:
+            ip: foo
+            port: foo
