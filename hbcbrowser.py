@@ -1,4 +1,4 @@
-#/usr/local/bin/python36
+#/usr/local/bin/python3
 
 
 import sys
@@ -17,7 +17,7 @@ from imagemetadata import ImageMetadata
 from kmlsave import SaveKml
 from querybuilder import QueryBuilder
 from log import *
-from configure import get_settings
+from configure import get_settings, validate_settings
 
 import errno
 from socket import error as socket_error
