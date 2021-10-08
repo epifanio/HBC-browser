@@ -2,7 +2,7 @@
 
 
 from PyQt5 import QtWidgets
-from hbc_browser_ui import Ui_MainWindow
+from qtui.Ui_hbc_browser_ui import Ui_MainWindow
 
 class HBCBrowserGui(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):

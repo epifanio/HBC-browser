@@ -5,10 +5,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
-from query_builder_ui import Ui_Form
-
-
-
+from qtui.Ui_query_builder_ui import Ui_Form
 
 
 class QueryBuilder(QWidget, Ui_Form):

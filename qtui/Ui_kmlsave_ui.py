@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/epinux/Desktop/QT_APP/imagebrowser_01/HBC-browser/qtui/kmlsave_ui.ui'
+# Form implementation generated from reading ui file '/home/epi/dev/HBC-browser/qtui/kmlsave_ui.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #

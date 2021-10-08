@@ -5,7 +5,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
-from image_metadata_ui import Ui_imagemetadata
+from qtui.Ui_image_metadata_ui import Ui_imagemetadata
 
 
 class ImageMetadata(QWidget, Ui_imagemetadata):

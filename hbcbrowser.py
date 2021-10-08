@@ -6,16 +6,17 @@ import os
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-from hbc_browser_gui import HBCBrowserGui
 import pyproj
 import pandas as pd
 import socket
 from sys import platform
 import qdarkstyle
 
-from imagemetadata import ImageMetadata
-from kmlsave import SaveKml
-from querybuilder import QueryBuilder
+from hbc_browser_gui import HBCBrowserGui
+
+from image_metadata_gui import ImageMetadata
+from kmlsave_gui import SaveKml
+from querybuilder_gui import QueryBuilder
 from log import *
 from configure import get_settings, validate_settings
 

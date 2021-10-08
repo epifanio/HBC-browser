@@ -5,7 +5,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
-from kmlsave_ui import Ui_Form
+from qtui.Ui_kmlsave_ui import Ui_Form
 import os
 import zipfile
 import subprocess
@@ -78,7 +78,7 @@ class SaveKml(QWidget, Ui_Form):
         output = subprocess.Popen([filemanager, str(kmldir)], stdout=subprocess.PIPE).communicate()[0]
 
 
-    def compress_kml(self,outfile,icon):
+    def compress_kml(self, outfile, icon):
         directory = os.path.dirname(str(outfile))
         iconname = icon.split('/')[-1]
         icontosave = directory+'/'+iconname
