@@ -87,3 +87,5 @@ venv/
 .vscode/
 .qt_for_python/
 
+# docker build installation files
+docker/OTPS.tar.Z
