@@ -66,6 +66,9 @@ Thumbs.db
 # Python byte code
 *.pyc
 
+# Python cache
+__pycache__/
+
 # Binaries
 # --------
 *.dll
@@ -77,3 +80,7 @@ kml/*.png
 kml/*.kmz
 vrt/*.vrt
 venv/
+
+# vscode
+.vscode/
+
