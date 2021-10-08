@@ -75,10 +75,12 @@ __pycache__/
 *.exe
 
 # shared files
-kml/*.kml
-kml/*.png
-kml/*.kmz
-vrt/*.vrt
+export/kml/*.kml
+export/kml/*.png
+export/kml/*.kmz
+export/vrt/*.vrt
+
+# python venv
 venv/
 
 # vscode
